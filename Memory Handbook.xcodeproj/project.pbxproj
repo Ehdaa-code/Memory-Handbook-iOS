@@ -32,6 +32,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC561C05306FDF90000ABBF9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EC6616D730666E89006B7D7F /* Memory_HandbookApp.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		EC561C06306FDF98000ABBF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EC561C07306FDFDD000ABBF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC6616D930666E89006B7D7F /* ContentView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EC561C08306FDFE3000ABBF9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		EC561C09306FDFF0000ABBF9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		EC561C0A306FDFF9000ABBF9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		EC561C0B306FE002000ABBF9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		EC561C0D306FE01C000ABBF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC6616DB30666E8D006B7D7F /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		EC6616CB30666E89006B7D7F = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +110,14 @@
 		EC6616D630666E89006B7D7F /* Memory Handbook */ = {
 			isa = PBXGroup;
 			children = (
-				EC6616D730666E89006B7D7F /* Memory_HandbookApp.swift */,
-				EC6616D930666E89006B7D7F /* ContentView.swift */,
-				EC6616DB30666E8D006B7D7F /* Assets.xcassets */,
+				EC561C0D306FE01C000ABBF9 /* Resources */,
+				EC561C0B306FE002000ABBF9 /* Utilities */,
+				EC561C0A306FDFF9000ABBF9 /* Components */,
+				EC561C09306FDFF0000ABBF9 /* Services */,
+				EC561C08306FDFE3000ABBF9 /* ViewModels */,
+				EC561C07306FDFDD000ABBF9 /* Views */,
+				EC561C06306FDF98000ABBF9 /* Models */,
+				EC561C05306FDF90000ABBF9 /* App */,
 				EC6616DD30666E8D006B7D7F /* Preview Content */,
 			);
 			path = "Memory Handbook";
